@@ -15,6 +15,6 @@ Requirements
 Workflow
 ********
 
-.. image:: workflow.png
-  :width: 960
+.. image:: WIOT_final-project-diagram.drawio(1).png
+  :width: 800
   :alt: Alternative text
