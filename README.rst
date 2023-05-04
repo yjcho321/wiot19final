@@ -16,5 +16,5 @@ Workflow
 ********
 
 .. image:: workflow.png
-  :width: 400
+  :width: 960
   :alt: Alternative text
