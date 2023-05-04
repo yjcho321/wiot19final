@@ -1,25 +1,20 @@
-.. _ble_peripheral:
-
-Bluetooth: Peripheral
+NFC + BLE Pet Tag
 #####################
 
 Overview
 ********
 
-Application demonstrating the BLE Peripheral role. It has several well-known and
-vendor-specific GATT services that it exposes.
-
+Pets are an integral part of people's lives, and it's incredibly stressful when they get lost. Our proposed project is to create a NFC Pet Tag with BLE. Our motivation behind this project was to create an easier way for pet owners to tag, keep track, and be alerted for when their pets are about to leave. Often pets can get loose and it becomes an enormous challenge to find them and get them back. We would allow pet owners to read and write a profile for their pets (containing the owner name, phone number, address, pet name) on their NFC tags, so that people can scan them if they got lost and learn pertinent information about the pet. We would also create an alert system (which we model with a blinking light) to alert the owner if the pet left a certain range based on the RSSI. Additionally, we have created a system where the owner can simply tap the tag with their mobile device to get connected to BLE.
 
 Requirements
 ************
 
-* BlueZ running on the host, or
-* A board with BLE support
+* A board with BLE and NFC support
+* A mobile deivce with BLE and NFC support
 
-Building and Running
-********************
+Workflow
+********
 
-This sample can be found under :zephyr_file:`samples/bluetooth/peripheral` in the
-Zephyr tree.
-
-See :ref:`bluetooth samples section <bluetooth-samples>` for details.
+.. image:: workflow.png
+  :width: 400
+  :alt: Alternative text
